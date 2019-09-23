@@ -20,7 +20,10 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
-        //segue.destination
+        if segue.destination is SecondViewController{
+            let vc = segue.destination as? SecondViewController
+            vc?.name = eTextName.text!
+        }
     }
 
 

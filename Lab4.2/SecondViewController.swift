@@ -10,9 +10,21 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
+    @IBOutlet weak var labelName: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
+    
+    var name:String = ""
+    
+    @IBAction func buttonBack(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        labelName?.text = name
+        
+        if name == "Veikko"{
+            imageView.image = UIImage(named: "sun.jpg")
+        }
     }
     
     

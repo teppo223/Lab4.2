@@ -12,6 +12,7 @@
 		04B2DE502338D0F7003C2FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B2DE4E2338D0F7003C2FEC /* Main.storyboard */; };
 		04B2DE522338D109003C2FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B2DE512338D109003C2FEC /* Assets.xcassets */; };
 		04B2DE552338D109003C2FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B2DE532338D109003C2FEC /* LaunchScreen.storyboard */; };
+		04B2DE5D2338D3F2003C2FEC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2DE5C2338D3F2003C2FEC /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		04B2DE512338D109003C2FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B2DE542338D109003C2FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B2DE562338D109003C2FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B2DE5C2338D3F2003C2FEC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				04B2DE4A2338D0F7003C2FEC /* AppDelegate.swift */,
 				04B2DE4C2338D0F7003C2FEC /* ViewController.swift */,
 				04B2DE4E2338D0F7003C2FEC /* Main.storyboard */,
+				04B2DE5C2338D3F2003C2FEC /* SecondViewController.swift */,
 				04B2DE512338D109003C2FEC /* Assets.xcassets */,
 				04B2DE532338D109003C2FEC /* LaunchScreen.storyboard */,
 				04B2DE562338D109003C2FEC /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B2DE5D2338D3F2003C2FEC /* SecondViewController.swift in Sources */,
 				04B2DE4D2338D0F7003C2FEC /* ViewController.swift in Sources */,
 				04B2DE4B2338D0F7003C2FEC /* AppDelegate.swift in Sources */,
 			);
